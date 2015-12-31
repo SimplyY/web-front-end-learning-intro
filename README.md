@@ -15,7 +15,7 @@ web 前端就是写网页上 ui 和交互的代码。
 在chrome dev tools（windows 下 f12 进入，mac 下右键“检查”）里，
 ![](http://7xkpdt.com1.z0.glb.clouddn.com/8b245a5673e55a12a3bc8156e204d020.png)
 
-其中 html 是文档骨架([MDN 的 html 入门教程](https://developer.mozilla.org/zh-CN/docs/Web/Guide/HTML/Introduction))，css [MDN css 入门教程](https://developer.mozilla.org/zh-CN/docs/Web/Guide/CSS/Getting_started) 为 html 加上了样式，两者共同完成了 ui，js （[js 入门书籍，js dom 编程艺术](http://book.douban.com/subject/6038371/)） 完成交互和动态的做一些事，比如向服务器接收、发送数据等。html 和 css 是基础，如果你要深入学习 web 前端就得学好 js，对于复杂交互的页面，js 占整个页面工作量的绝大部分。
+其中 html 是文档骨架([MDN 的 html 入门教程](https://developer.mozilla.org/zh-CN/docs/Web/Guide/HTML/Introduction))，css ([MDN css 入门教程](https://developer.mozilla.org/zh-CN/docs/Web/Guide/CSS/Getting_started)) 为 html 加上了样式，两者共同完成了 ui，js （[js 入门书籍:js dom 编程艺术](http://book.douban.com/subject/6038371/)） 完成交互和动态的做一些事，比如向服务器接收、发送数据等。html 和 css 是基础，如果你要深入学习 web 前端就得学好 js，对于复杂交互的页面，js 占整个页面工作量的绝大部分。
 
 
 ### 编辑器
@@ -28,5 +28,13 @@ web 前端就是写网页上 ui 和交互的代码。
 
 
 ## 进阶
-代码模块化、性能优化、构建工具、版本控制
+- 架构模式（推荐 mvvm 的 vue [入门教程](http://cn.vuejs.org/guide/)，mvvm 适合大量的 dom 操作也就是复杂交互的页面，特别是非常适合web单页应用）
+- 版本控制(和比人合作开发, 最常用的git [git 教程](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000))
+- github （学习别人的项目和开发自己的项目, [github 介绍](http://simplyy.space/blog/article/github%20%E7%9A%84%E4%B8%96%E7%95%8C) ）
+- 性能优化（动物书之狗书 [高性能网站建设指南](http://book.douban.com/subject/3132277/) ）
+- 代码模块化打包工具、性能优化构建工具（比如 webpack [教程](http://www.html-js.com/article/Study-notes-webpack-tutorial%203113) ）
+- node.js （其实打包工具和构建工具都是 node 写的，阿里大牛写的 [node.js 教程](https://github.com/SimplyY/node-lessons) ）。
+- 待补充
+
+图来自 https://www.zhihu.com/question/38924821/answer/79207681
 ![](http://7xkpdt.com1.z0.glb.clouddn.com/1280072e6def04f95d03d8def95846f1.png)
